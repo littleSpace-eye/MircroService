@@ -1,0 +1,26 @@
+server:
+  port: 7005
+spring:
+  application:
+    name: userConsumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+    register-with-eureka: true
+logging:
+  level:
+    com.example.finapi.service.UserClient: DEBUG
+feign:
+  circuitbreaker:
+    enabled: true
+# 加载所有的端点/默认只加载了 info / health
+# 监控端口配置
+management:
+  endpoints:
+    web:
+      exposure:
+        # 开启 info,health；新版本中只默认开启了 health
+        include: info,health
+
+

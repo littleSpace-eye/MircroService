@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dashboard_demo" />
+        <module name="server" />
+        <module name="userConsumer" />
+        <module name="gateway_zuul" />
+        <module name="userService" />
+        <module name="finApi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dashboard-demo" target="1.8" />
+      <module name="demo1" target="11" />
+      <module name="provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo1" options="-parameters" />
+      <module name="finApi" options="" />
+      <module name="server" options="" />
+      <module name="userConsumer" options="" />
+      <module name="userService" options="" />
+    </option>
+  </component>
+</project>

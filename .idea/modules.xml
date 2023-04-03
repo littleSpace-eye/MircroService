@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dashboard_demo/dashboard_demo.iml" filepath="$PROJECT_DIR$/dashboard_demo/dashboard_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway_zuul/gateway_zuul.iml" filepath="$PROJECT_DIR$/gateway_zuul/gateway_zuul.iml" />
+    </modules>
+  </component>
+</project>
